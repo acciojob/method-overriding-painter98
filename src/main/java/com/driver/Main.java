@@ -12,7 +12,7 @@ class B extends A{
 }
 public class Main {
     public static void main(String[] args) {
-    B nameB = new B();
-        System.out.println(B.meth());
+    B obj = new B();
+        System.out.println(obj.meth());
     }
 }
